@@ -1,0 +1,71 @@
+module.exports = {
+  mode: "jit",
+  content: [
+    "./src/**/**/*.{js,ts,jsx,tsx,html,mdx}",
+    "./src/**/*.{js,ts,jsx,tsx,html,mdx}",
+  ],
+  darkMode: "class",
+  theme: {
+    screens: { md: { max: "1050px" }, sm: { max: "550px" } },
+    extend: {
+      colors: {
+        deep_purple: { 900: "#1815c9" },
+        pink: {
+          800: "#a8174e",
+          900: "#550832",
+          "900_01": "#991747",
+          "900_02": "#5e0933",
+          "800_01": "#b32346",
+        },
+        red: { 900: "#a82020", A700: "#ec0c0c" },
+        blue_gray: {
+          100: "#d9d9d9",
+          "100_01": "#dad1d1",
+          "100_3f": "#d1cdcd3f",
+          "100_3f_01": "#dbd7d73f",
+        },
+        gray: {
+          300: "#dededf",
+          400: "#c5c5c5",
+          700: "#636363",
+          800: "#4b4848",
+          900: "#500732",
+          "500_3f": "#a19a9a3f",
+          "800_02": "#4c4c4c",
+          "800_01": "#3b3b3b",
+          "700_33": "#61616133",
+          "500_3f_01": "#a4a4a43f",
+          "300_3f": "#dbdbdb3f",
+        },
+        black: {
+          900: "#000000",
+          "900_3f": "#0000003f",
+          "900_01": "#130101",
+          "900_63": "#00000063",
+          "900_03": "#0d010d",
+          "900_47": "#00000047",
+          "900_02": "#160101",
+          "900_99": "#00000099",
+        },
+        lime: { A700: "#92ef1b" },
+        white: { A700: "#ffffff" },
+      },
+      boxShadow: {
+        bs: "0px 4px  90px 5px #dededf",
+        bs5: "0px 4px  100px 3px #dbdbdb3f",
+        bs2: "0px 4px  90px 2px #d1cdcd3f",
+        bs4: "0px 4px  90px 2px #dbd7d73f",
+        bs1: "0px 4px  90px 2px #a19a9a3f",
+        bs6: "0px 4px  90px 2px #a4a4a43f",
+        bs7: "0px 4px  0px 0px #0000003f",
+        bs3: "0px 4px  4px 0px #0000003f",
+      },
+      fontFamily: { roboto: "Roboto", manrope: "Manrope", poppins: "Poppins" },
+      backgroundImage: {
+        gradient:
+          "linear-gradient(180deg ,#550832,#b32346,#5e0933,#991747,#b32346,#500732,#a8174e)",
+      },
+    },
+  },
+  plugins: [require("@tailwindcss/forms")],
+};
