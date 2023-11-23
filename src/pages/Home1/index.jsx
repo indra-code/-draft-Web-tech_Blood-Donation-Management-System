@@ -34,25 +34,25 @@ const Home1Page = () => {
               <div className="absolute h-[990px] inset-y-[0] left-[0] my-auto w-[96%] md:w-full">
                 <div className="absolute flex flex-col h-max inset-y-[0] items-center justify-start my-auto right-[0]">
                   <Text
-                    className="leading-[56.00px] text-5xl sm:text-[38px] md:text-[44px] text-gray-800_01 text-right tracking-[2.40px]"
+                    className="leading-[56.00px] text-5xl sm:text-[38px] md:text-[44px] text-gray-800_01 text-center tracking-[2.40px]"
                     size="txtRobotoBold48Gray80001"
                   >
                     <>
-                      Save Life Donate
-                      <br />
+                      Save Life<br /> Donate
+                      
                       Blood{" "}
                     </>
                   </Text>
                 </div>
                 <Button
-                  className="common-pointer absolute bottom-[20%] cursor-pointer font-black leading-[normal] min-w-[256px] right-[7%] rounded-[15px] text-3xl sm:text-[26px] md:text-[28px] text-center"
+                  className="common-pointer absolute bottom-[20%] cursor-pointer font-black leading-[normal] min-w-[256px] right-[2%] rounded-[15px] text-3xl sm:text-[26px] md:text-[28px] text-center"
                   onClick={handleOpenDonateModal}
                   size="md"
                 >
                   Donate
                 </Button>
                 <div
-                  className="absolute bg-cover bg-no-repeat flex flex-col h-full inset-y-[0] items-start justify-start left-[0] my-auto md:pr-10 sm:pr-5 pr-[121px] py-[121px] w-[72%]"
+                  className="absolute bg-cover bg-no-repeat flex flex-col h-full inset-y-[0] items-start justify-start left-[-53%] top-2 my-auto md:pr-10 sm:pr-5 pr-[121px] py-[121px] w-[72%]"
                   style={{
                     backgroundImage: "url('images/img_herosection.png')",
                   }}
@@ -108,11 +108,6 @@ const Home1Page = () => {
                       </div>
                     </div>
                   </div>
-                  <Img
-                    className="h-[23px] md:ml-[0] ml-[5px] w-[23px]"
-                    src="images/img_arrowdown.svg"
-                    alt="arrowdown"
-                  />
                   <Button
                     className="common-pointer border-2 border-black-900 border-solid cursor-pointer font-roboto leading-[normal] min-w-[224px] md:ml-[0] ml-[35px] sm:text-[21px] md:text-[23px] text-[25px] text-center"
                     onClick={handleOpenLoginModal}
@@ -153,7 +148,7 @@ const Home1Page = () => {
               <div className="flex flex-col items-center justify-start w-2/5 md:w-full">
                 <div className="flex flex-col items-center justify-start w-full">
                   <Text
-                    className="mr-[300px] md:text-5xl text-[64px] text-black-900"
+                    className="mr-[1500px] md:text-5xl text-[64px] text-black-900"
                     size="txtManropeBold64"
                   >
                     <span className="text-black-900 font-manrope text-left font-bold">
@@ -169,11 +164,11 @@ const Home1Page = () => {
                 </div>
               </div>
               <Text
-                className="pr-[100px] text-4xl sm:text-[32px] md:text-[34px] text-black-900 w-full"
+                className="pr-[100px] absolute top-[107%] text-4xl sm:text-[32px] md:text-[34px] text-black-900 w-[75%]"
                 size="txtManropeBold36"
               >
                 <span className="text-black-900 font-manrope text-left font-bold">
-                  Donating{" "}
+                  <br /> Donating{" "}
                 </span>
                 <span className="text-red-A700 font-manrope text-left font-bold">
                   blood

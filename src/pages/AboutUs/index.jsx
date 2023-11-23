@@ -31,7 +31,7 @@ const AboutUsPage = () => {
                     alt="herosection"
                   />
                   <Text
-                    className="absolute right-[5%] md:text-5xl text-8xl text-black-900 text-center top-1/4 tracking-[4.80px]"
+                    className="absolute right-[17%] md:text-5xl text-8xl text-black-900 text-center top-[50%] tracking-[4.80px]"
                     size="txtRobotoBold96"
                   >
                     OUR PROCESS
@@ -68,7 +68,7 @@ const AboutUsPage = () => {
                             </div>
                           </div>
                           <Img
-                            className="h-[5px] mt-0.5"
+                            className="h-[5px] mt-0.5 absolute left-[15.8%] top-[70%]"
                             src="images/img_tabbarselected.svg"
                             alt="tabbarselected"
                           />
@@ -83,11 +83,7 @@ const AboutUsPage = () => {
                               Register Now
                             </Text>
                           </a>
-                          <Img
-                            className="h-[23px] ml-[5px] mt-[13px] w-[23px]"
-                            src="images/img_arrowdown.svg"
-                            alt="arrowdown"
-                          />
+
                         </div>
                         <Button
                           className="common-pointer border-2 border-black-900 border-solid cursor-pointer font-roboto leading-[normal] min-w-[224px] md:ml-[0] ml-[35px] sm:text-[21px] md:text-[23px] text-[25px] text-center"
@@ -103,11 +99,11 @@ const AboutUsPage = () => {
                   </header>
                 </div>
                 <div className="h-[258px] md:ml-[0] ml-[57px] relative w-[24%]">
-                  <div className="bg-black-900_01 h-[258px] m-auto rounded-[164px] w-full"></div>
+                  <div className="bg-black-900_01 h-[0px] m-auto rounded-[164px] w-full"></div>
                   <div className="absolute h-[258px] inset-[0] justify-center m-auto w-full">
-                    <div className="bg-black-900_01 h-[258px] m-auto rounded-[164px] w-full"></div>
+                    <div className="bg-black-900_01 h-[208px] m-auto rounded-[84px] w-[500px]"></div>
                     <Text
-                      className="absolute left-[17%] sm:text-4xl md:text-[38px] text-[40px] text-center text-white-A700 top-[37%] tracking-[2.00px]"
+                      className="absolute left-[31%] sm:text-4xl md:text-[38px] text-[40px] text-center text-white-A700 top-[30%] tracking-[2.00px]"
                       size="txtRobotoBold40"
                     >
                       REGISTER
@@ -116,22 +112,22 @@ const AboutUsPage = () => {
                 </div>
               </div>
             </div>
-            <Line className="absolute bg-black-900 h-[3px] left-[27%] top-[37%] w-[7%]" />
+            <Line className="absolute bg-black-900 h-[3px] left-[20%] top-[37%] w-[20%]" />
             <div className="absolute bottom-[20%] md:h-[1114px] sm:h-[1316px] h-[1496px] right-[4%] w-3/4 md:w-full">
               <div className="flex flex-col md:gap-10 gap-[242px] h-full justify-start m-auto w-full">
                 <div className="md:h-[596px] h-[776px] ml-52 md:ml-[0] relative w-[81%] md:w-full">
                   <div className="md:h-[596px] h-[776px] m-auto w-full">
                     <div className="absolute h-[258px] left-[0] top-[0] w-[38%]">
-                      <div className="bg-black-900_01 h-[258px] m-auto rounded-[164px] w-full"></div>
+                      <div className="bg-black-900_01 h-[208px] m-auto rounded-[84px] w-[500px]"></div>
                       <Text
-                        className="absolute inset-x-[0] leading-[100.00px] mx-auto sm:text-4xl md:text-[38px] text-[40px] text-center text-white-A700 top-[7%] tracking-[2.00px] w-[72%] sm:w-full"
+                        className="absolute inset-x-[0] leading-[100.00px] mx-auto sm:text-4xl md:text-[38px] text-[40px] text-center text-white-A700 top-[20%] tracking-[2.00px] w-[72%] sm:w-full"
                         size="txtRobotoBold40"
                       >
                         GET IN CONTACT
                       </Text>
                     </div>
                     <div className="absolute bottom-[0] h-[596px] right-[0] w-[77%] md:w-full">
-                      <div className="bg-black-900_02 h-[596px] m-auto rounded-[329px] w-full"></div>
+                      <div className="bg-black-900_01 h-[508px] m-auto rounded-[154px] w-[500px]"></div>
                       <Text
                         className="absolute inset-x-[0] leading-[100.00px] mx-auto sm:text-[29px] md:text-[31px] text-[33px] text-center text-white-A700 top-[9%] tracking-[1.65px]"
                         size="txtRobotoBold33"
@@ -147,15 +143,15 @@ const AboutUsPage = () => {
                     </div>
                   </div>
                   <Img
-                    className="absolute h-[52px] left-[38%] top-[20%]"
+                    className="absolute h-[179px] left-[34%] top-[20%]"
                     src="images/img_arrow2.svg"
                     alt="arrowTwo"
                   />
                 </div>
                 <div className="h-[478px] relative w-[58%] md:w-full">
-                  <div className="bg-black-900_03 h-[478px] m-auto rounded-[310px] w-full"></div>
+                <div className="bg-black-900_01 h-[208px] m-auto rounded-[84px] absolute left-[49%] w-[500px]"></div>
                   <Text
-                    className="absolute bottom-[21%] inset-x-[0] leading-[100.00px] mx-auto text-5xl sm:text-[38px] md:text-[44px] text-center text-white-A700 tracking-[2.40px]"
+                    className="absolute bottom-[21%] inset-x-[0] leading-[100.00px] mx-auto text-5xl top-[0%] left-[40%] sm:text-[38px] md:text-[44px] text-center text-white-A700 tracking-[2.40px]"
                     size="txtRobotoBold48"
                   >
                     <>
@@ -167,7 +163,7 @@ const AboutUsPage = () => {
                 </div>
               </div>
               <Img
-                className="absolute bottom-[31%] h-[266px] inset-x-[0] mx-auto"
+                className="absolute bottom-[31%] h-[466px] inset-x-[0] mx-auto left-[10%]"
                 src="images/img_arrow3.svg"
                 alt="arrowThree"
               />
